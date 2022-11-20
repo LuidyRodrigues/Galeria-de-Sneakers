@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #0ee0e0;
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Grid de produtos */
+  .container {
+    background-color: rgb(0, 0, 0);
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 210px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  #img-1 {
+    background-image: url('img/dunk1.webp');
+  }
+  
+  #img-2 {
+    background-image: url('img/dunk2.webp');
+  }
+  
+  #img-3 {
+    background-image: url('img/dunk3.webp');
+  }
+  
+  #img-4 {
+    background-image: url('img/dunk4.webp');
+  }
+  
+  #img-5 {
+    background-image: url('img/dunk5.webp');
+  }
+  
+  #img-6 {
+    background-image: url('img/dunk6.webp');
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(7, 52, 100);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(0, 28, 71);
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #0ee0e0;
+    text-align: center;
+    padding: 80px;
+    color: rgb(0, 0, 0);
+  }
